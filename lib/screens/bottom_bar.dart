@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 import 'home_screen.dart';
+import 'notification.dart';
 
 class BottomBar extends StatefulWidget {
   const BottomBar({super.key});
@@ -16,8 +17,8 @@ class _BottomBarState extends State<BottomBar> {
   int _selectedIndex = 0;
   static final List<Widget> list = [
     const HomeScreen(),
-    const Certificate(), //CoursesScreen(),
-    const Text("Three"), //NotificationScreen(),
+    const Certificate(),
+    const MyNotification(),
     const Text("Four"), //ProfileScreen()
   ];
 

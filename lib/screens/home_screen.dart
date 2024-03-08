@@ -16,7 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: MyAppBar(title:"Home", showShoppingIcon: true),
+      appBar: MyAppBar(title:"Home", showSearchIcon: true, showShoppingIcon: true),
       body: ListView(
         children: [
           SizedBox(

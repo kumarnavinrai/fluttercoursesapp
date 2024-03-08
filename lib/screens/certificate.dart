@@ -10,7 +10,7 @@ class Certificate extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: MyAppBar(title:"My Certificates", showShoppingIcon: false),
+      appBar: MyAppBar(title:"My Certificates",showSearchIcon: true, showShoppingIcon: false),
       body:  Padding(
         padding: EdgeInsets.all(20.0),
         child: SingleChildScrollView(
