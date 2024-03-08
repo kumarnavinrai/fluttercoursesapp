@@ -1,4 +1,5 @@
 import 'package:barber_app/screens/certificate.dart';
+import 'package:barber_app/screens/profile.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
@@ -19,7 +20,7 @@ class _BottomBarState extends State<BottomBar> {
     const HomeScreen(),
     const Certificate(),
     const MyNotification(),
-    const Text("Four"), //ProfileScreen()
+    const MyProfile(),
   ];
 
   int _selectIndex = 0;
